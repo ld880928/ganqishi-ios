@@ -8,6 +8,7 @@
 
 #import "HemianViewController.h"
 #import "AddNewHemianInfoView.h"
+#import "ModifyHemianInfoView.h"
 
 #import "DataBaseManager.h"
 #import "DateManager.h"
@@ -364,7 +365,27 @@ typedef enum
         }
         
         //操作
+        UIButton *modifyBtn = [UIButton buttonWithType:UIButtonTypeSystem];
         
+        v = [headers objectAtIndex:items_.count + 1];
+        
+        modifyBtn.frame = CGRectMake(v.frame.origin.x + 10, 15, 60, 30);
+        [modifyBtn setTitle:@"修改" forState:UIControlStateNormal];
+        
+        __unsafe_unretained HemianViewController *safe_self = self;
+        
+        [modifyBtn handleControlEvent:UIControlEventTouchUpInside withBlock:^{
+            
+            ModifyHemianInfoView *modifyView = [ModifyHemianInfoView ModifyHemianInfoViewWithItems:safe_self.items productModel:productModel];
+            modifyView.saveCallBackBlock = ^(id info){
+                //保存修改
+                
+            };
+            [modifyView showInView:safe_self.view];
+            
+        }];
+        
+        [cell.contentView addSubview:modifyBtn];
         
         //备注
         

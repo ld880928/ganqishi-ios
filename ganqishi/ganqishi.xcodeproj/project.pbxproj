@@ -23,6 +23,8 @@
 		6E0DA3041918D28A00CE5404 /* AddNewHemianInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E0DA3031918D28A00CE5404 /* AddNewHemianInfoView.xib */; };
 		6E0DA30C1918E97600CE5404 /* CustomKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0DA30B1918E97600CE5404 /* CustomKeyBoardView.m */; };
 		6E0DA30E1918E9E700CE5404 /* CustomKeyBoardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E0DA30D1918E9E700CE5404 /* CustomKeyBoardView.xib */; };
+		6E31D23F192C73DA00294D7C /* ModifyHemianInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E31D23D192C73DA00294D7C /* ModifyHemianInfoView.m */; };
+		6E31D240192C73DA00294D7C /* ModifyHemianInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E31D23E192C73DA00294D7C /* ModifyHemianInfoView.xib */; };
 		6E4D6493192482A50008BAB3 /* AddNewChulongInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D6492192482A50008BAB3 /* AddNewChulongInfoView.m */; };
 		6E4D6495192482B20008BAB3 /* AddNewChulongInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E4D6494192482B20008BAB3 /* AddNewChulongInfoView.xib */; };
 		6E4D649819248BFD0008BAB3 /* UnitRegulerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D649719248BFD0008BAB3 /* UnitRegulerModel.m */; };
@@ -92,6 +94,9 @@
 		6E0DA30A1918E97600CE5404 /* CustomKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomKeyBoardView.h; sourceTree = "<group>"; };
 		6E0DA30B1918E97600CE5404 /* CustomKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomKeyBoardView.m; sourceTree = "<group>"; };
 		6E0DA30D1918E9E700CE5404 /* CustomKeyBoardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomKeyBoardView.xib; sourceTree = "<group>"; };
+		6E31D23C192C73DA00294D7C /* ModifyHemianInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifyHemianInfoView.h; sourceTree = "<group>"; };
+		6E31D23D192C73DA00294D7C /* ModifyHemianInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifyHemianInfoView.m; sourceTree = "<group>"; };
+		6E31D23E192C73DA00294D7C /* ModifyHemianInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModifyHemianInfoView.xib; sourceTree = "<group>"; };
 		6E4BDA25192086B900376FD5 /* Models.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Models.h; sourceTree = "<group>"; };
 		6E4D6491192482A50008BAB3 /* AddNewChulongInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewChulongInfoView.h; sourceTree = "<group>"; };
 		6E4D6492192482A50008BAB3 /* AddNewChulongInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewChulongInfoView.m; sourceTree = "<group>"; };
@@ -239,6 +244,9 @@
 				6E0DA3001918D27700CE5404 /* AddNewHemianInfoView.h */,
 				6E0DA3011918D27700CE5404 /* AddNewHemianInfoView.m */,
 				6E0DA3031918D28A00CE5404 /* AddNewHemianInfoView.xib */,
+				6E31D23C192C73DA00294D7C /* ModifyHemianInfoView.h */,
+				6E31D23D192C73DA00294D7C /* ModifyHemianInfoView.m */,
+				6E31D23E192C73DA00294D7C /* ModifyHemianInfoView.xib */,
 			);
 			path = Hemian;
 			sourceTree = "<group>";
@@ -446,6 +454,7 @@
 				6E0DA30E1918E9E700CE5404 /* CustomKeyBoardView.xib in Resources */,
 				483C71081929937A00B96BB2 /* AddNewCustomDataView.xib in Resources */,
 				6E851918191638A700ACCD42 /* InfoPlist.strings in Resources */,
+				6E31D240192C73DA00294D7C /* ModifyHemianInfoView.xib in Resources */,
 				6E851921191638A800ACCD42 /* Main.storyboard in Resources */,
 				483C71091929937A00B96BB2 /* CustomFormSetting.plist in Resources */,
 				6EBDA633192216AB00E97B69 /* StepInputView.xib in Resources */,
@@ -509,6 +518,7 @@
 				6EBDA6311922169400E97B69 /* StepInputView.m in Sources */,
 				483C71071929937A00B96BB2 /* AddNewCustomDataView.m in Sources */,
 				6E85191E191638A700ACCD42 /* AppDelegate.m in Sources */,
+				6E31D23F192C73DA00294D7C /* ModifyHemianInfoView.m in Sources */,
 				483C710A1929937A00B96BB2 /* CustomFormViewController.m in Sources */,
 				6E0DA2FE1918B69400CE5404 /* ChulongViewController.m in Sources */,
 				6E63A43D191CA5F6007FC88F /* ItemModel.m in Sources */,

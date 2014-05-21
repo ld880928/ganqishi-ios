@@ -5,41 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>7A4A8632-7BC9-4633-A074-8B497C819DA3</string>
+	<string>AB2F2A1A-486F-47E6-B771-A4ECC1F9DA26</string>
 	<key>IDESourceControlProjectName</key>
 	<string>ganqishi</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>BCA71F16-0854-4326-984E-2565E946E260</key>
-		<string>http://svn.jijesoft.local/projects/iToy/source/IOS/toy</string>
+		<key>E54AB38B-CD43-499B-A9E3-8A0E0E0E7A7B</key>
+		<string>https://github.com/ld880928/ganqishi-ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ganqishi/ganqishi.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>BCA71F16-0854-4326-984E-2565E946E260</key>
+		<key>E54AB38B-CD43-499B-A9E3-8A0E0E0E7A7B</key>
 		<string>../..</string>
 	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>BCA71F16-0854-4326-984E-2565E946E260</key>
-		<string>http://svn.jijesoft.local/projects/iToy</string>
-	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>http://svn.jijesoft.local/projects/iToy/source/IOS/toy/ganqishi/ganqishi.xcworkspace</string>
+	<string>https://github.com/ld880928/ganqishi-ios.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>BCA71F16-0854-4326-984E-2565E946E260</string>
+	<string>E54AB38B-CD43-499B-A9E3-8A0E0E0E7A7B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>BCA71F16-0854-4326-984E-2565E946E260</string>
+			<string>E54AB38B-CD43-499B-A9E3-8A0E0E0E7A7B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>svnCode</string>
+			<string>ganqishi-ios</string>
 		</dict>
 	</array>
 </dict>
