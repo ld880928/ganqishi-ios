@@ -9,22 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-CocoaAsyncSocket.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-CocoaLumberjack.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-FMDB.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-XMPPFramework.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,32 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>54634247AF7946808789B022</key>
+		<key>4DC5CA04E6EE45A98887B9DC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>608B1DC83E114E8293B1E2DD</key>
+		<key>6DD6A9D0AD6043639BC43CA0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>70675D54AECA4F4693BC648E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>741FB1E4495C4DD9A9D777F8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7A074818956B4E968D0306CF</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DC27FCE4A87A4EBD84210AD2</key>
+		<key>9F59A400760C4BEB829F3169</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -58,16 +58,27 @@
 }
 - (IBAction)loginTest:(id)sender
 {
-    //NSString *urlString = @"http://172.27.72.111.8080/boh/annonymity/demo/test";
+    NSString *urlString = @"http://172.27.72.110:8081/boh/ios/productionService/syncStore";
     
-    NSString *urlString = @"http://115.29.16.55/mobile/news/?field_channel_tid=20&page=0";
-    //NSDictionary *parameters = @{@"userName": @"colin",@"password":@"123456"};
+     NSDictionary *parameters = @{@"userName": @"colin",@"password":@"123456"};
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     
-    [manager POST:urlString parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [manager POST:urlString parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        
         NSLog(@"JSON: %@", responseObject);
+        
+        
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"成功" message:responseObject delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+        [alert show];
+        
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        
         NSLog(@"Error: %@", error);
+        
+        
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"失败" message:error.description delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+        [alert show];
+        
     }];
     
 }
