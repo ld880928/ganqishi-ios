@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UserInfo</key>
+	<dict>
+		<key>Username</key>
+		<string>Dave</string>
+		<key>Password</key>
+		<string>123456</string>
+	</dict>
+	<key>StoreInfo</key>
+	<dict>
+		<key>Storename</key>
+		<string>杭州文二路店 NO.045</string>
+		<key>Storecode</key>
+		<string>1001</string>
+	</dict>
+	<key>ServerInfo</key>
+	<dict>
+		<key>POS_IP</key>
+		<string></string>
+		<key>Server_IP</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>
