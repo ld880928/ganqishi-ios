@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		481D8387192C952600CE4C37 /* ManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 481D8386192C952600CE4C37 /* ManageViewController.m */; };
 		483C70FB1929934100B96BB2 /* CustomFormDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 483C70F61929934100B96BB2 /* CustomFormDataModel.m */; };
 		483C70FC1929934100B96BB2 /* CustomFormDataRelationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 483C70F81929934100B96BB2 /* CustomFormDataRelationModel.m */; };
 		483C70FD1929934100B96BB2 /* CustomFormModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 483C70FA1929934100B96BB2 /* CustomFormModel.m */; };
@@ -67,6 +68,8 @@
 
 /* Begin PBXFileReference section */
 		227F76D9764F482EAEDA264C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		481D8385192C952600CE4C37 /* ManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageViewController.h; sourceTree = "<group>"; };
+		481D8386192C952600CE4C37 /* ManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageViewController.m; sourceTree = "<group>"; };
 		483C70F51929934100B96BB2 /* CustomFormDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFormDataModel.h; sourceTree = "<group>"; };
 		483C70F61929934100B96BB2 /* CustomFormDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFormDataModel.m; sourceTree = "<group>"; };
 		483C70F71929934100B96BB2 /* CustomFormDataRelationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFormDataRelationModel.h; sourceTree = "<group>"; };
@@ -331,6 +334,8 @@
 				6E85191F191638A800ACCD42 /* Main.storyboard */,
 				6E64521D191873E600962ADC /* HomeViewController.h */,
 				6E64521E191873E600962ADC /* HomeViewController.m */,
+				481D8385192C952600CE4C37 /* ManageViewController.h */,
+				481D8386192C952600CE4C37 /* ManageViewController.m */,
 				6E851925191638A800ACCD42 /* Images.xcassets */,
 				48BB9FE5192AF7570045F5F6 /* Settings.plist */,
 				6E851914191638A700ACCD42 /* Supporting Files */,
@@ -534,6 +539,7 @@
 				6E64521F191873E600962ADC /* HomeViewController.m in Sources */,
 				483C70FC1929934100B96BB2 /* CustomFormDataRelationModel.m in Sources */,
 				6E63A429191C7A3F007FC88F /* StoreInfoManager.m in Sources */,
+				481D8387192C952600CE4C37 /* ManageViewController.m in Sources */,
 				6E4D6493192482A50008BAB3 /* AddNewChulongInfoView.m in Sources */,
 				6E0DA3021918D27700CE5404 /* AddNewHemianInfoView.m in Sources */,
 			);
